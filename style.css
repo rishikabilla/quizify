@@ -3,12 +3,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow:scroll;
+    
+}
+html,body
+{
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
 }
 body
 {
     background: linear-gradient(145deg,#ffbfbe,#f4b9b8);
     height:100vh;
+   
     
 }
 nav
